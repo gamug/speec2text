@@ -153,16 +153,3 @@ def exportText(df, filePath, fileName):
         for i, row in df.iterrows():
             line = f"{row['speaker']}: {row['text']}\n"
             file.write(line)    
-
-check_directories(parameters)
-
-audioFile = os.path.join(parameters['audios'], "test_audio_1.mp3")
-speakersPath = os.path.join(parameters['speakers'], "test_audio_1")
-
-cliente, asesor = separateChannels(audioFile, speakersPath)
-
-resultTranscriptCliente = whisperTranscription(cliente)
-resultTranscriptAsesor = whisperTranscription(asesor)
-
-df_transcript = concatTranscript(resultTranscriptCliente, resultTranscriptAsesor)
-exportText(df_transcript, parameters['transcription'], "transcript_1.txt")
