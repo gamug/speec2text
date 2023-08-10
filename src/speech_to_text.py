@@ -6,7 +6,7 @@ import warnings
 import os, sys
 
 from pydub import AudioSegment
-from src.commons.common_tools import check_directories
+from src.commons.common_tools import check_directories, parameters
 
 warnings.filterwarnings("ignore")
 
@@ -14,20 +14,6 @@ warnings.filterwarnings("ignore")
 device = "cuda" 
 compute_type = "float16" # change to "int8" if low on GPU mem (may reduce accuracy)
 batch_size = 16 # reduce if low on GPU mem
-
-# Define paths using parameters
-parameters = {
-    'path': os.path.dirname(sys.path[0]),
-    'path_in': os.path.join(os.path.dirname(sys.path[0]), '01_data'),
-    'path_out': os.path.join(os.path.dirname(sys.path[0]), '03_output'),
-    'curated': os.path.join(os.path.dirname(sys.path[0]), '01_data', 'curated'),
-    'matching': os.path.join(os.path.dirname(sys.path[0]), '01_data', 'matching_dbs'),
-    'topic_modeling': os.path.join(os.path.dirname(sys.path[0]), '03_output', 'topic_modeling'),
-    'speech': os.path.join(os.path.dirname(sys.path[0]), '03_output', 'speech_to_text'),
-    'audios': os.path.join(sys.path[0], '01_data', 'audios_ccenter'),
-    'speakers': os.path.join(sys.path[0], '03_output', 'speech_to_text', 'audios_speakers'),
-    'transcription': os.path.join(sys.path[0], '03_output', 'speech_to_text', 'transcription')
-}
 
 def separateChannels(file, savePath):
     """
@@ -49,8 +35,8 @@ def separateChannels(file, savePath):
 
     monoAudios = stereoAudio.split_to_mono()
     
-    audioRightFile = "speaker_cliente.mp3"
-    audioLeftFile = "speaker_asesor.mp3"
+    audioRightFile = f"cliente_{file}"
+    audioLeftFile = f"asesor_{file}"
 
     os.makedirs(savePath, exist_ok=False)
 
