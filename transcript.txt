@@ -1,0 +1,79 @@
+cliente:  A ver si tengo el número de Radical.
+asesor:  Muy buena tarde, bienvenido a las líneas del Banco de Occidente.
+asesor: Habla con Yorami Shapono, luego con el señor Sergio.
+cliente: Sí, señora.
+asesor: ¿Vos saludarlo con qué?
+asesor: ¿Cómo puedo ayudarle el día de hoy?
+cliente: Gracias.
+cliente: Mira, un favor.
+cliente: Es que yo llamo el mes de mayo para que me hicieran el cambio de fecha de pago para que me quedara el 10, ¿sí?
+cliente: Porque a mí en general me pagan los 5.
+cliente:  me hicieron todo el proceso de como media hora hablando con el asesor en ese momento, me dijo, sí señor, la próxima cuota pague de manera usual y ya a partir de julio quedará normal.
+asesor:  ... ... ... ...
+cliente: Yo la verdadera confianza es que me llevo un correo que estoy en mora y pues efectivamente reviso el extracto bancario y me dice que está para pagar el 4 de julio, ¿sí?
+cliente: Y el mes pasado, o sea, para junio, yo hice el pago el 24 de mayo, 28 de mayo, no lo recuerdo ahorita bien,
+cliente:  precisamente para comprar ahorita en junio a partir de la fecha para los pagos de los 10.
+cliente: Yo no entiendo por qué no se pudo hacer esa notificación.
+cliente: No, no estaba en mora.
+asesor:  ¿Estabas en Muro cuando hicieron el proyecto la primera vez?
+cliente: No.
+cliente: Esto lo hice en mayo y no estaba en mora.
+cliente: Y en junio pagué.
+cliente: Junio lo pagué en mayo también, precisamente para eso.
+cliente: Sí.
+asesor:  El crédito es un crédito de vehículo, ¿verdad?
+cliente:  Mira, el pago pasado lo hice el 30 de mayo, o sea, lo hice adelantado.
+cliente: El mes de junio lo pagué el 30 de mayo.
+cliente: Y se suponía que iba a quedar a partir de julio el pago del día hecho.
+cliente: ¿Sí?
+cliente: Ah, bueno.
+asesor: De acuerdo, en un momento le damos y ya está confirmado.
+asesor:  Vale, lo que pasa es que,
+cliente:  ¿Quién es?
+cliente: ¿Quién es?
+cliente: ¿Quién es?
+cliente: ¿Quién es?
+asesor:  Aparece el registro de la póliza del seguro vencida.
+asesor: ¿Tú tienes de pronto la póliza con alguna otra compañía?
+cliente:  Claro y yo mandé el, yo mandé el correo y todo.
+asesor: ¿Y no con nosotros?
+asesor: El correo.
+asesor: ¿Cuál correo?
+cliente: El correo, ese era el banco que yo hice en cambio de colizar ese bus.
+asesor: Pero no es por correo, es por la página del banco, porque si no, no se toma como tal.
+asesor:  es por el botón contactarnos del banco, debes hacer el proceso porque al tener la garantía vencida o que es como tal la poliza, no te permiten hacer el cambio de corte.
+cliente:  Pero se arregló porque entonces el asesor que me atendió a mí quedó hablando tanto tiempo porque no fue capaz de dar una información adecuada.
+asesor: Ahí te dice el proceso, lo que pasa es que la persona de servicio al cliente
+cliente: Por eso todavía no me informó de eso.
+asesor:  la persona de servicio al cliente te hace el proceso y ya eso queda en otra área.
+asesor: Y de la otra área es que dan la respuesta para ese tipo de solicitud.
+asesor: En este momento yo estoy ingresando a la solicitud que se realizó y la respuesta me indica que no se pudo proceder debido a que al momento apareció la policía vencida.
+asesor: Entonces ya como tal, debes hacer nuevamente el proceso delendoso, así que llamo,
+cliente:  Y eso es por la página interna.
+asesor:  de la póliza que tengas con la otra compañía a través del botón contáctanos del banco de accidentes de la página para que no haya inconvenientes.
+asesor: Luego de que ya eso se te conteste, de que está aprobado, puedes volver a comunicarte a que te hagan nuevamente la gestión del cambio de corte.
+asesor: Si llegas por la página o en un crédito dentro
+cliente:  y que tengo que enviar yo.
+asesor:  ¿Qué sería como tal una de nuestras oficinas especializadas de vehículos?
+cliente: Y eso, además de la cuota, es que no la puedo modificar.
+cliente: ¿Impacta en algo en el crédito?
+asesor: ¿Qué?
+asesor: ¿El endorso de la... Sí, claro.
+cliente: Sí, está bien hacerlo.
+asesor: Pueden empezar a cobrar entonces la póliza con nosotros, porque el crédito de vehículos UCI tiene que tener una póliza.
+cliente:  No, pues diría la verdad que no hay informe al respecto.
+asesor:  entonces verías un aumento reflejado en el valor de tu cuota.
+cliente: Entonces, ¿y qué?
+cliente: ¿Le dices que es lo que le tengo que enviar o...?
+asesor: Sí señor, mire, ¿quiere que se haga la carta?
+asesor: Pues con su puño y letra la debe firmar.
+asesor:  debe de solicitar el endoso, así se llama el proceso, endoso de poliza de ese, del seguro del carro.
+asesor: La poliza de todo riesgo, ¿vale?
+asesor: Tienes que poner la carátula, que vendría siendo la poliza que tienes en la otra compañía donde tenga las características que tiene esa poliza,
+asesor:  que para que sea aceptada con nosotros, pues debe cumplir algunos requisitos, que es tener las mismas características de la póliza del banco, ¿vale?
+asesor: El desprendible de pago, donde conste que tú estás haciendo ese pago de esa póliza, y ya, pues la solicitud debe de ser específico, indicando pues que necesitas ese endoso de esa póliza, ¿vale?, para que te puedan ayudar.
+asesor:  Hola, ¿me escucha?
+asesor: ¿Señor Sergio?
+asesor: Hola, ¿señor Sergio?
+asesor:  Señor Sergio.
+cliente:  ¡Gracias!
