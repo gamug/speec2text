@@ -1,4 +1,4 @@
-import whisperx
+import whisper
 import gc 
 import pandas as pd
 import torch
@@ -11,7 +11,7 @@ from src.commons.common_tools import check_directories, parameters
 warnings.filterwarnings("ignore")
 
 # Define device and compute type for Whisper model
-device = "cuda" 
+device = "cuda" if torch.cuda.is_available() else "cpu" 
 compute_type = "float16" # change to "int8" if low on GPU mem (may reduce accuracy)
 batch_size = 16 # reduce if low on GPU mem
 
@@ -35,10 +35,14 @@ def separateChannels(file, savePath):
 
     monoAudios = stereoAudio.split_to_mono()
     
-    audioRightFile = f"cliente_{file}"
-    audioLeftFile = f"asesor_{file}"
-
-    os.makedirs(savePath, exist_ok=False)
+    audioRightFile = f"cliente.mp3"
+    audioLeftFile = f"asesor.mp3"
+    
+    if not os.path.exists(savePath):
+        os.mkdir(savePath)
+        print(f"Se ha creado el directorio '{savePath}'")
+    else:
+        print(f"El directorio '{savePath}' ya existe")
 
     monoAudios[0].export(os.path.join(savePath, audioLeftFile), format="mp3")
     monoAudios[1].export(os.path.join(savePath, audioRightFile), format="mp3")
@@ -59,15 +63,15 @@ def whisperTranscription(file):
     dict
         Transcription results including segments, start times, end times, and transcribed text.
     """
-    model = whisperx.load_model("large-v2", device, compute_type=compute_type)
-
-    audio = whisperx.load_audio(file)
-    result = model.transcribe(audio, batch_size=batch_size, language="es")
-
-    gc.collect(); torch.cuda.empty_cache(); del model
+    model = whisper.load_model("large")
     
-    model_a, metadata = whisperx.load_align_model(language_code=result["language"], device=device)
-    result = whisperx.align(result["segments"], model_a, metadata, audio, device, return_char_alignments=False)
+    audio = whisper.load_audio(file)
+    result = model.transcribe(
+        audio,
+        language ="Spanish",
+        word_timestamps=True
+    )
+    gc.collect(); torch.cuda.empty_cache()
     return result
 
 def filterModelMistakes(df):

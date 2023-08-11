@@ -17,14 +17,31 @@ git clone https://github.com/gamug/speec2text.git
 2. Install the required dependencies:
 pip install -r requirements.txt
 
-3. Run the main script:
+3. Requires the command-line tool ffmpeg to be installed on your system, which is available from most package managers:
+ on Ubuntu or Debian
+ sudo apt update && sudo apt install ffmpeg
+
+ on Arch Linux
+ sudo pacman -S ffmpeg
+
+ on MacOS using Homebrew (https://brew.sh/)
+ brew install ffmpeg
+
+ on Windows using Chocolatey (https://chocolatey.org/)
+ choco install ffmpeg
+
+ on Windows using Scoop (https://scoop.sh/)
+ scoop install ffmpeg
+
+4. Run the main script:
 python transcript.py
 
 ## Dependencies
 
-- WhisperX
+- Whisper
 - pandas
 - torch
 - pydub
 
 Specific dependency versions can be found in the `requirements.txt` file.
+More information about model: https://github.com/openai/whisper
